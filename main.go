@@ -1,4 +1,4 @@
-package main // import "github.com/JohannesTegner/terraform-provider-upcloud"
+package main // import "github.com/UpCloudLtd/terraform-provider-upcloud"
 
 import (
 	"github.com/UpCloudLtd/terraform-provider-upcloud/upcloud"
