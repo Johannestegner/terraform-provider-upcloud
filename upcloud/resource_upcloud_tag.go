@@ -34,7 +34,9 @@ func resourceUpCloudTag() *schema.Resource {
 					"server": {
 						Type:     schema.TypeList,
 						Required: true,
-						Elem:     schema.TypeString,
+						Elem: &schema.Schema{
+							Type: schema.TypeString,
+						},
 					},
 				},
 			},
